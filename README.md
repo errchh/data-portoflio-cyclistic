@@ -42,7 +42,7 @@ Comprehensive -- Includes the time and GPS location of every trip
 
 Current -- Data was collected and release every month
 
-No cited -- No Warranty to be error free
+No cited -- No warranty to be error free 
 
 # 3. Process
 
