@@ -1,8 +1,10 @@
-# Divvy Marketing Bike Share Usage Case Study
+# Cyclistic Marketing Bike Share Usage Case Study
 
 Eric Chan 2022-03-03
 
 # Case background
+
+Capstone project.. 
 
 https://ride.divvybikes.com/how-it-works 
 
