@@ -59,6 +59,9 @@ https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Centr
 Boundaries of enterprise zones
 https://data.cityofchicago.org/Community-Economic-Development/Boundaries-Enterprise-Zones/64xf-pyvh
 
+Bike routes (Jan 2022)
+https://data.cityofchicago.org/Transportation/Bike-Routes/3w5d-sru8
+
 # 3. Process
 
 - what tool? why?
