@@ -13,8 +13,7 @@ co info
 
 https://ride.divvybikes.com/how-it-works
 
-Data source -- Divvy trip data (Mar 2021 to Feb 2022)
-https://ride.divvybikes.com/system-data
+
 
 # 1. Ask
 
@@ -32,7 +31,13 @@ Find how do casual riders and annual members use Cyclistic bikes differently?
 
 ## Description of data source used
 
-The specific dataset used is the Divvy historic trip data (licensed by Lyft Bikes and Scooters, LLC).
+### Trip data
+
+The specific dataset used is the Divvy historic trip data (licensed by Lyft Bikes and Scooters, LLC)
+https://ride.divvybikes.com/data-license-agreement
+
+Data source -- Divvy trip data (Mar 2021 to Feb 2022)
+https://ride.divvybikes.com/system-data
 
 Reliability -- Second-party data, collected by Chicago Divvy bicycle sharing service. Trip data by staff as they service, inspect the system, or under 60 sec (e.g. false start, re-dock) are removed.
 
@@ -42,7 +47,17 @@ Comprehensive -- Includes the time and GPS location of every trip
 
 Current -- Data was collected and release every month
 
-No cited -- No warranty to be error free 
+No cited -- No warranty to be error free
+
+### Map data
+
+Provided by Chicago Data Portal of City of Chicago
+
+Boundaries of central business district  
+https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Central-Business-District/tksj-nvsw
+
+Boundaries of enterprise zones
+https://data.cityofchicago.org/Community-Economic-Development/Boundaries-Enterprise-Zones/64xf-pyvh
 
 # 3. Process
 
