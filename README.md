@@ -4,7 +4,7 @@ Eric Chan 2022-03-03
 
 # Case background
 
-Capstone project.. 
+This is the capstone project of the Google Data Analytics Professional Certificate. 
 
 https://ride.divvybikes.com/how-it-works 
 
