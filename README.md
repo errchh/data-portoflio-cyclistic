@@ -4,7 +4,10 @@ Eric Chan 2022-03-03
 
 # Case background
 
-Google data analyst professional certificate capstone project in SQL and Tableau
+https://ride.divvybikes.com/how-it-works 
+
+Data source 
+https://ride.divvybikes.com/system-data
 
 co
 
