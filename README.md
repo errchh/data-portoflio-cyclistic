@@ -13,15 +13,14 @@ co info
 
 https://ride.divvybikes.com/how-it-works
 
-Divvy trip data Mar 2021 to Feb 2022
-Data source
+Data source -- Divvy trip data (Mar 2021 to Feb 2022)
 https://ride.divvybikes.com/system-data
 
 # 1. Ask
 
 ## Business task
 
-- Find how do annual members and casual riders use Cyclistic bikes differently?
+Find how do casual riders and annual members use Cyclistic bikes differently?
 
 ## Key stakeholders
 
@@ -39,11 +38,11 @@ Reliability -- Second-party data, collected by Chicago Divvy bicycle sharing ser
 
 Original -- System data from Lyft Bikes and Scooters, LLC
 
-Comprehensive -- Includes the time and GPS location of every trip.
+Comprehensive -- Includes the time and GPS location of every trip
 
-Current -- Data was collected and release every month.
+Current -- Data was collected and release every month
 
-Cited -- Not cited. No Warranty to be error free.
+No cited -- No Warranty to be error free
 
 # 3. Process
 
