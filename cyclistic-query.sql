@@ -154,7 +154,7 @@ SELECT
   COUNTIF(ride_duration_cat = "Under 15 mins") / COUNT(member_casual) * 100 AS under_15_mins,
   COUNTIF(ride_duration_cat = "Under 30 mins") / COUNT(member_casual) * 100 AS under_30_mins,
   COUNTIF(ride_duration_cat = "Under 45 mins") / COUNT(member_casual) * 100 AS under_45_mins,
-  COUNTIF(ride_duration_cat = "Under 60 mins") / COUNT(member_casual) * 100 AS under_65_mins,
+  COUNTIF(ride_duration_cat = "Under 60 mins") / COUNT(member_casual) * 100 AS under_60_mins,
   COUNTIF(ride_duration_cat = "Over an hour") / COUNT(member_casual) * 100 AS over_an_hour
 FROM
   divvy.tripdata_v3
