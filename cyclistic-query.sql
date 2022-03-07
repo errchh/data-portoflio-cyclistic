@@ -175,7 +175,7 @@ GROUP BY
 
 
 -- Find usage pattern. total num of rides. casual vs member
--- usage by day, member
+-- usage by hour, member
 SELECT
   EXTRACT(HOUR FROM started_at) AS hour,
   COUNT(started_at) AS num_ride
@@ -189,7 +189,7 @@ ORDER BY
   hour
 
 
--- usage by day, casual
+-- usage by hour, casual
 SELECT
   EXTRACT(HOUR FROM started_at) AS hour,
   COUNT(started_at) AS num_ride
@@ -203,7 +203,7 @@ ORDER BY
   hour
 
 
--- usage by week, member
+-- usage by day, member
 -- 1 = Sunday
 SELECT
   EXTRACT(DAYOFWEEK FROM started_at) AS weekday,
@@ -218,7 +218,7 @@ ORDER BY
   weekday
 
 
--- usage by week, casual
+-- usage by day, casual
 -- 1 = Sunday
 SELECT
   EXTRACT(DAYOFWEEK FROM started_at) AS weekday,

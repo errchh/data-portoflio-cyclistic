@@ -10,7 +10,7 @@ Version 2022-03-07
     - Categorised ride duration
     - Queried ride duration distribution
     - Queried rideable type percentage
-    - Queried usage by day, week and month
+    - Queried usage by hour, day and month
     - Assigned peak season (May to Oct) and off season (Nov to Apr)
     - Queried station usage according to season in different user group
 
