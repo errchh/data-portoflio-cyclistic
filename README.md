@@ -135,7 +135,7 @@ This confirms annual members use Cyclistic bikes to commute to work, while casua
 
 ![Fig 7. Usage pattern by month](/figure/fig-cyclistic-month.jpg)
 
-For both groups, the peak season is from May to October.
+For both groups, the peak season is from May to October. Off season is from November to April.
 
 Number of rides of annual members peaks across the summer. Casual riders peaks in July and having a higher number of rides than annual members.
 
@@ -163,7 +163,7 @@ With the fact they are active on weekend afternoons, this suggests leisure may b
 
 In off season, top activities of casual riders spreads across the central business district, and to the north and northwest area next the CBD.
 
-This may suggest casual riders, who use single ride or 1-day pass, as a ad-hoc way to travel across the city.
+This may suggest casual riders, who use single ride or 1-day pass, use the service as an ad-hoc way to travel across the city in the winter.
 
 ## Marketing v2 -- what's next?
 
@@ -181,9 +181,9 @@ In order to convert casual riders to annual members,
 
    - The current pricing tier is free rides under 45 minutes.
 
-   - Increase annual member base: New tier of free rides under 30 minutes. Having a lower annual fee, to lower the entrance barrier.
+   - Increase annual member base: New pricing tier of free rides under 30 minutes. Having a lower annual fee, to lower the entrance barrier.
 
-   - Maximise customer lifetime value (CLV): New tier of free rides under 1 hour. Having a higher annual fee, but a more value per minute charge.
+   - Maximise customer lifetime value (CLV): New pricing tier of free rides under 1 hour. Having a higher annual fee, but with a better value per minute charge.
 
 =====
 
