@@ -120,7 +120,7 @@ FROM
   divvy.tripdata_raw
 
 
--- check again descriptive analysis
+-- Check again descriptive analysis
 SELECT
   member_casual,
   AVG(ride_duration_mins) AS avg_ride_duration_mins,
@@ -147,8 +147,7 @@ FROM
   divvy.tripdata_v2
 
 
--- ride duration distribution. causal vs member percentage
--- x = ride duration, under 30 min, under 45 min, under 1 hr, y = num of usage.
+-- Ride duration distribution. causal vs member percentage
 SELECT
   member_casual,
   COUNTIF(ride_duration_cat = "Under 15 mins") / COUNT(member_casual) * 100 AS under_15_mins,
@@ -162,7 +161,7 @@ GROUP BY
   member_casual
 
 
--- rideable type percentage. x = ride type, y = num ride, fill = casual vs member
+-- Rideable type percentage
 SELECT
   member_casual,
   COUNTIF(rideable_type = "classic_bike") / COUNT(member_casual) * 100 AS num_classic_bike,
@@ -175,7 +174,7 @@ GROUP BY
 
 
 -- Find usage pattern. total num of rides. casual vs member
--- usage by hour, member
+-- Usage by hour, member
 SELECT
   EXTRACT(HOUR FROM started_at) AS hour,
   COUNT(started_at) AS num_ride
@@ -189,7 +188,7 @@ ORDER BY
   hour
 
 
--- usage by hour, casual
+-- Usage by hour, casual
 SELECT
   EXTRACT(HOUR FROM started_at) AS hour,
   COUNT(started_at) AS num_ride
@@ -203,7 +202,7 @@ ORDER BY
   hour
 
 
--- usage by day, member
+-- Usage by day, member
 -- 1 = Sunday
 SELECT
   EXTRACT(DAYOFWEEK FROM started_at) AS weekday,
@@ -218,7 +217,7 @@ ORDER BY
   weekday
 
 
--- usage by day, casual
+-- Usage by day, casual
 -- 1 = Sunday
 SELECT
   EXTRACT(DAYOFWEEK FROM started_at) AS weekday,
@@ -233,7 +232,7 @@ ORDER BY
   weekday
 
 
--- usage by month, member
+-- Usage by month, member
 SELECT
   EXTRACT(MONTH FROM started_at) AS month,
   COUNT(started_at) AS num_ride
@@ -247,7 +246,7 @@ ORDER BY
   month
 
 
--- usage by month, casual
+-- Usage by month, casual
 SELECT
   EXTRACT(MONTH FROM started_at) AS month,
   COUNT(started_at) AS num_ride
@@ -265,7 +264,7 @@ ORDER BY
 -- According to month usage, let May to Oct be the peak season
 
 
--- peak season member
+-- Peak season, member
 SELECT
   rideable_type,
   EXTRACT(MONTH FROM started_at) AS month,
@@ -284,7 +283,7 @@ AND
   member_casual = "member"
 
 
--- peak season casual
+-- Peak season, casual
 SELECT
   rideable_type,
   EXTRACT(MONTH FROM started_at) AS month,
@@ -303,7 +302,7 @@ AND
   member_casual = "casual"
 
 
--- off season member
+-- Off season, member
 SELECT
   rideable_type,
   EXTRACT(MONTH FROM started_at) AS month,
@@ -322,7 +321,7 @@ AND
   member_casual = "member"
 
 
--- off season casual
+-- Off season, casual
 SELECT
   rideable_type,
   EXTRACT(MONTH FROM started_at) AS month,

@@ -6,14 +6,9 @@ Eric Chan 2022-03-03
 
 This is the capstone project of the Google Data Analytics Professional Certificate.
 
-co info
-
-- maximising annual members is key to future growth
-- design marketing strategies aimed at converting casual riders into annual members
+Cyclistic Bike Share is a ficitonal company, as a proxy of Divvy Bikes, for this capstone project. The company is based in Chicago. It has 2 pricing tiers - Casual (day-pass users) and Member (Annual membership). Management believes maximising annual members is the key to growth. Marketing team is designing strategies converting casual riders into annual members.
 
 https://ride.divvybikes.com/how-it-works
-
-
 
 # 1. Ask
 
@@ -39,15 +34,15 @@ https://ride.divvybikes.com/data-license-agreement
 Data source -- Divvy trip data (Mar 2021 to Feb 2022)
 https://ride.divvybikes.com/system-data
 
-Reliability -- Second-party data, collected by Chicago Divvy bicycle sharing service. Trip data by staff as they service, inspect the system, or under 60 sec (e.g. false start, re-dock) are removed.
+Reliability -- Second-party data, collected by Chicago Divvy Bikes. Trip data by staff as they service, inspect the system, or under 60 sec (e.g. false start, re-dock) are removed.
 
-Original -- System data from Lyft Bikes and Scooters, LLC
+Original -- System data from Divvy Bikes
 
 Comprehensive -- Includes the time and GPS location of every trip
 
-Current -- Data was collected and release every month
+Current -- Mar 2021 to Feb 2022 data was used in this analysis
 
-No cited -- No warranty to be error free
+Not cited -- No warranty to be error free
 
 ### Map data
 
@@ -62,21 +57,48 @@ https://data.cityofchicago.org/Community-Economic-Development/Boundaries-Enterpr
 Bike routes (Jan 2022)
 https://data.cityofchicago.org/Transportation/Bike-Routes/3w5d-sru8
 
+CTA - 'L' (Rail) Stations - kml
+https://data.cityofchicago.org/Transportation/CTA-L-Rail-Stations-kml/4qtv-9w43
+
 # 3. Process
 
-- what tool? why?
-- check data integrity
-- clean and doc -- duplicated, missing values
-- verify it's clean
-- find ride length HH:MM:SS = ended_at - started_at
-- find day of week
+Documented in [cyclistic-query.sql](cyclistic-query.sql)
 
 # 4. Analyse
 
-![Figure 1 - Rideable type by user groups](/figure/fig-cyclistic-rideable-type.jpg)
-
-## Summary of Analysis
+Documented in [cyclistic-query.sql](cyclistic-query.sql)
 
 # 5. Visualise and share
 
+![Figure 1 - Rideable type by user groups](/figure/fig-cyclistic-rideable-type.jpg)
+
 ## Support visualisations and key findings
+
+### Chicago city overview
+
+![Fig 1. Districts along bike routes](/figure/fig-cyclistic-districts.jpg)
+
+![Fig 2. Household income by district](/figure/fig-cyclistic-household-income.jpg)
+
+### Rideable type
+
+![Fig 3. Percentage of rideable types by number of rides](/figure/fig-cyclistic-rideable-type.jpg)
+
+### Ride duration
+
+![Fig 4. Distribution of ride duration](/figure/fig-cyclistic-ride-durations.jpg)
+
+### Usage patterns
+
+![Fig 5. Usage pattern by hour](/figure/fig-cyclistic-hour.jpg)
+![Fig 6. Usage pattern by day](/figure/fig-cyclistic-day.jpg)
+![Fig 7. Usage pattern by month](/figure/fig-cyclistic-month.jpg)
+
+### Station usage - Peak season vs Off season
+
+![Fig ](/figure/fig-cyclistic-peak-season-member.jpg)
+![Fig ](/figure/fig-cyclistic-off-season-member.jpg)
+![Fig ](/figure/fig-cyclistic-peak-season-casual.jpg)
+![Fig ](/figure/fig-cyclistic-off-season-casual.jpg)
+
+## Marketing v2 -- what's next?
