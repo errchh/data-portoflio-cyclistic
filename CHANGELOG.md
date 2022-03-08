@@ -7,13 +7,14 @@ This file contains the notable changes to the project
     - Checked bike types and count
     - Added ride duration mins
     - Added day of week
-    - Queried descriptive analysis
-    - Categorised ride duration
-    - Queried ride duration distribution
-    - Queried rideable type percentage
-    - Queried usage by hour, day and month
+    - Query descriptive analysis
+    - Add categories by ride duration
+    - Query ride duration distribution
+    - Query rideable type percentage
+    - Query usage by hour, day and month
     - Assigned peak season (May to Oct) and off season (Nov to Apr)
-    - Queried station usage according to season in different user group
+    - Query station usage according to season in different user group
+    - Plot viz in Tableau
 
 ### Fixes
     - Re-upload July tripdata, due to wrong file was uploaded.
