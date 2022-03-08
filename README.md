@@ -73,20 +73,7 @@ https://data.cityofchicago.org/Transportation/Bike-Routes/3w5d-sru8
 
 # 4. Analyse
 
-- join table
-
-- descriptive analysis
-- calc mean of ride_length
-- calc max ride_length
-- calc mode day_of_week
-- calc mean ride_length for members vs casual riders
-- calc mean ride_length for users by day_of_week
-- calc number of rides for users by day_of_week
-
-- analyse for month, and season
-
-- merge to full year view, analyse
-- export summary file
+![Figure 1 - Rideable type by user groups](/figure/fig-cyclistic-rideable-type.jpg)
 
 ## Summary of Analysis
 

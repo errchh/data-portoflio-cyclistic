@@ -5,7 +5,7 @@ This file contains the notable changes to the project
 
 ### New
     - Checked bike types and count
-    - Added ride duration mins
+    - Added ride duration mins 
     - Added day of week
     - Query descriptive analysis
     - Add categories by ride duration
