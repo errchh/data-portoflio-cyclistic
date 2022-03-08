@@ -8,7 +8,7 @@ This is the capstone project of the Google Data Analytics Professional Certifica
 
 Cyclistic Bike Share is a ficitonal company, as a proxy of Divvy Bikes, for this capstone project. The company is based in Chicago. It has 2 pricing tiers - Casual (day-pass users) and Member (Annual membership). Management believes maximising annual members is the key to growth. Marketing team is designing strategies converting casual riders into annual members.
 
-https://ride.divvybikes.com/how-it-works
+[Divvy Bikes](https://ride.divvybikes.com/how-it-works)
 
 # 1. Ask
 
@@ -28,37 +28,38 @@ Find how do casual riders and annual members use Cyclistic bikes differently?
 
 ### Trip data
 
-The specific dataset used is the Divvy historic trip data (licensed by Lyft Bikes and Scooters, LLC)
-https://ride.divvybikes.com/data-license-agreement
+The specific dataset used is the Divvy historic trip data ([licensed](https://ride.divvybikes.com/data-license-agreement) by Lyft Bikes and Scooters, LLC)
 
-Data source -- Divvy trip data (Mar 2021 to Feb 2022)
-https://ride.divvybikes.com/system-data
 
-Reliability -- Second-party data, collected by Chicago Divvy Bikes. Trip data by staff as they service, inspect the system, or under 60 sec (e.g. false start, re-dock) are removed.
+Data source -- [Divvy trip data](https://ride.divvybikes.com/system-data) (Mar 2021 to Feb 2022)
 
-Original -- System data from Divvy Bikes
 
-Comprehensive -- Includes the time and GPS location of every trip
+Reliability --
+Second-party data, collected by Chicago Divvy Bikes. Trip data by staff as they service, inspect the system, or under 60 sec (e.g. false start, re-dock) are removed.
 
-Current -- Mar 2021 to Feb 2022 data was used in this analysis
+Original --
+System data from Divvy Bikes
 
-Not cited -- No warranty to be error free
+Comprehensive --
+Includes the time and GPS location of every trip
+
+Current --
+Mar 2021 to Feb 2022 data was used in this analysis
+
+Not cited --
+No warranty to be error free
 
 ### Map data
 
 Provided by Chicago Data Portal of City of Chicago
 
-Boundaries of central business district  
-https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Central-Business-District/tksj-nvsw
+[Boundaries of central business district](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Central-Business-District/tksj-nvsw)
 
-Boundaries of enterprise zones
-https://data.cityofchicago.org/Community-Economic-Development/Boundaries-Enterprise-Zones/64xf-pyvh
+[Boundaries of enterprise zones](https://data.cityofchicago.org/Community-Economic-Development/Boundaries-Enterprise-Zones/64xf-pyvh)
 
-Bike routes (Jan 2022)
-https://data.cityofchicago.org/Transportation/Bike-Routes/3w5d-sru8
+[Bike routes (Jan 2022)](https://data.cityofchicago.org/Transportation/Bike-Routes/3w5d-sru8)
 
-CTA - 'L' (Rail) Stations - kml
-https://data.cityofchicago.org/Transportation/CTA-L-Rail-Stations-kml/4qtv-9w43
+[CTA - 'L' (Rail) Stations - kml](https://data.cityofchicago.org/Transportation/CTA-L-Rail-Stations-kml/4qtv-9w43)
 
 # 3. Process
 
@@ -70,9 +71,9 @@ Documented in [cyclistic-query.sql](cyclistic-query.sql)
 
 # 5. Visualise and share
 
-![Figure 1 - Rideable type by user groups](/figure/fig-cyclistic-rideable-type.jpg)
-
 ## Support visualisations and key findings
+
+[Link to Tableau public](https://public.tableau.com/app/profile/errchh/viz/Cyclisticbikeshare-CasualridersvsAnnualmembers/Casestudy)
 
 ### Chicago city overview
 
