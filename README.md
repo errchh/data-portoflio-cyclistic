@@ -14,7 +14,7 @@ Cyclistic Bike Share is a ficitonal company, as a proxy of Divvy Bikes, for this
 
 ## Business task
 
-Find how do casual riders and annual members use Cyclistic bikes differently?
+Find how do casual riders and annual members use Cyclistic Bikes differently?
 
 ## Key stakeholders
 
@@ -79,27 +79,103 @@ Documented in [cyclistic-query.sql](cyclistic-query.sql)
 
 ![Fig 1. Districts along bike routes](/figure/fig-cyclistic-districts.jpg)
 
+Good availibility of bike routes in Chicago central business district and enterprise zone. There are also tube stations (CTA 'L') and universities along the way.
+
 ![Fig 2. Household income by district](/figure/fig-cyclistic-household-income.jpg)
+
+The district at the north of central business district has the highest household income, and is well paved with bike routes.
 
 ### Rideable type
 
 ![Fig 3. Percentage of rideable types by number of rides](/figure/fig-cyclistic-rideable-type.jpg)
 
+Classic bike is most popular in annual members with 64% of rides in them.
+
+About one-third of both groups use electric bikes.
+
+Casual riders is the only group uses docked bikes.
+
 ### Ride duration
 
 ![Fig 4. Distribution of ride duration](/figure/fig-cyclistic-ride-durations.jpg)
 
+Mean ride duration minutes (Member) = 13 minutes
+Mean ride duration minutes (Casual) = 32 minutes
+
+Over 71% of members finish their rides under 15 minutes. 93% finish under 30 minutes.
+
+Casual riders has longer rides on average and almost 9% are over an hour.
+
 ### Usage patterns
 
 ![Fig 5. Usage pattern by hour](/figure/fig-cyclistic-hour.jpg)
+
+Peak usage of member is at 8 am and 5 pm, with 5 pm almost doubled the number of rides. This shows members use Cyclistic bikes to commute to work. Assumming some would take public transport to office, and ride a bike to home.
+
+Casual riders has a high usage in the afternoon and peaked at 5 pm.
+
 ![Fig 6. Usage pattern by day](/figure/fig-cyclistic-day.jpg)
+
+Key: 1 = Sunday, 2 = Monday, ... 7 = Saturday
+
+Member shows a higher usage during the weekdays. Casual riders has higher usage during the weekends.
+
+This confirms annual members use Cyclistic bikes to commute to work, while casual riders mainly use it for leisure.
+
 ![Fig 7. Usage pattern by month](/figure/fig-cyclistic-month.jpg)
+
+For both groups, the peak season is from May to October.
+
+Number of rides of annual members peaks across the summer. Casual riders peaks in July and having a higher number of rides than annual members.
+
+Usage in winter remains low for both group.
 
 ### Station usage - Peak season vs Off season
 
 ![Fig ](/figure/fig-cyclistic-peak-season-member.jpg)
+
+In peak season, the highest activity of annual member rides are in the central business district.
+
 ![Fig ](/figure/fig-cyclistic-off-season-member.jpg)
+
+In off season, the highest activity of annual member rides are pretty much the same location as those in the peak season.
+
+This suggests annual members use the service as a way to commute to work.
+
 ![Fig ](/figure/fig-cyclistic-peak-season-casual.jpg)
+
+In peak season, casual riders has the highest activity near the central business district shore area.
+
+With the fact they are active on weekend afternoons, this suggests leisure may be the reason casual riders use the service.
+
 ![Fig ](/figure/fig-cyclistic-off-season-casual.jpg)
 
+In off season, top activities of casual riders spreads across the central business district, and to the north and northwest area next the CBD.
+
+This may suggest casual riders, who use single ride or 1-day pass, as a ad-hoc way to travel across the city.
+
 ## Marketing v2 -- what's next?
+
+The data shows, annual members use Cyclistic bike to commute to office, mainly in the central business district.
+
+In order to convert casual riders to annual members,
+
+1. Location
+
+   - Target casual riders who work in the enterpise zone, and could use Cyclistic bikes to connect tube stations and their offices.
+
+   - Target university students, to bike from tube stations to universities.
+
+2. Pricing
+
+   - The current pricing tier is free rides under 45 minutes.
+
+   - New tier of free rides under 30 minutes. Having a lower annual fee, to lower the entrance barrier and increase annual member base.
+
+   - New tier of free rides under 1 hour. Having a higher annual fee, but a more value per minute charge, in order to maximise customer lifetime value (CLV).
+
+=====
+
+Thank you for reading.
+
+If you have any questions, please feel free to contact me via GitHub or Linkedin.
