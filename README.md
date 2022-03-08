@@ -81,7 +81,11 @@ Documented in [cyclistic-query.sql](cyclistic-query.sql)
 
     Key:
 
-    Bike route (Pink), Central business district (Dark yellow), Enterprise zone (Light yellow), University (Black), Tube stations CTA 'L' (Green)
+    Pink                 Bike route
+    Dark yellow          Central business district
+    Light yellow         Enterprise zone
+    Black                University
+    Green                Tube stations (CTA 'L')
 
 Good availibility of bike routes in Chicago central business district and enterprise zone. There are also tube stations (CTA 'L') and universities along the way.
 
