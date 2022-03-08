@@ -5,13 +5,14 @@ This file contains the notable changes to the project
 
 ### New
     - Uploaded figures
+    - Completed data analysis. Report uploaded. 
 
 ## Version 2022-03-07
 
 ### New
     - Checked bike types and count
     - Added ride duration mins
-    - Added day of week 
+    - Added day of week
     - Query descriptive analysis
     - Added categories by ride duration
     - Query ride duration distribution
