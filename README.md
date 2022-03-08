@@ -79,9 +79,9 @@ Documented in [cyclistic-query.sql](cyclistic-query.sql)
 
 ![Fig 1. Districts along bike routes](/figure/fig-cyclistic-districts.jpg)
 
-Key:
+    Key:
 
-Bike route (Pink), Central business district (Dark yellow), Enterprise zone (Light yellow), University (Black), Tube stations CTA 'L' (Green)
+    Bike route (Pink), Central business district (Dark yellow), Enterprise zone (Light yellow), University (Black), Tube stations CTA 'L' (Green)
 
 Good availibility of bike routes in Chicago central business district and enterprise zone. There are also tube stations (CTA 'L') and universities along the way.
 
@@ -104,23 +104,26 @@ Casual riders is the only group uses docked bikes.
 ![Fig 4. Distribution of ride duration](/figure/fig-cyclistic-ride-durations.jpg)
 
 Mean ride duration minutes (Member) = 13 minutes
+
 Mean ride duration minutes (Casual) = 32 minutes
 
-Over 71% of members finish their rides under 15 minutes. 93% finish under 30 minutes.
+Over 71% of annual members finish their rides under 15 minutes. 93% finish under 30 minutes.
 
-Casual riders has longer rides on average and almost 9% are over an hour.
+Casual riders has longer rides on average and almost 24% are over 45 minutes.
 
 ### Usage patterns
 
 ![Fig 5. Usage pattern by hour](/figure/fig-cyclistic-hour.jpg)
 
-Peak usage of member is at 8 am and 5 pm, with 5 pm almost doubled the number of rides. This shows members use Cyclistic bikes to commute to work. Assumming some would take public transport to office, and ride a bike to home.
+Peak usage of member is at 8 am and 5 pm, with 5 pm almost doubled the number of rides. This shows members use Cyclistic bikes to commute to work. Assuming some would take public transport to the office, and ride a bike to home.
 
 Casual riders has a high usage in the afternoon and peaked at 5 pm.
 
 ![Fig 6. Usage pattern by day](/figure/fig-cyclistic-day.jpg)
 
-Key: 1 = Sunday, 2 = Monday, ... 7 = Saturday
+    Key:
+
+    1 = Sunday, 2 = Monday, ... 7 = Saturday
 
 Member shows a higher usage during the weekdays. Casual riders has higher usage during the weekends.
 
@@ -132,7 +135,7 @@ For both groups, the peak season is from May to October.
 
 Number of rides of annual members peaks across the summer. Casual riders peaks in July and having a higher number of rides than annual members.
 
-Usage in winter remains low for both group.
+Usage in winter remains low for both groups.
 
 ### Station usage - Peak season vs Off season
 
@@ -142,7 +145,7 @@ In peak season, the highest activity of annual member rides are in the central b
 
 ![Fig ](/figure/fig-cyclistic-off-season-member.jpg)
 
-In off season, the highest activity of annual member rides are pretty much the same location as those in the peak season.
+In off season, the highest activity of annual member rides are pretty much the same locations as those in the peak season.
 
 This suggests annual members use the service as a way to commute to work.
 
@@ -166,7 +169,7 @@ In order to convert casual riders to annual members,
 
 1. Location
 
-   - Target casual riders who work in the enterpise zone, and could use Cyclistic bikes to connect tube stations and their offices.
+   - Target casual riders who work in the enterprise zone, and could use Cyclistic bikes to connect tube stations and their offices.
 
    - Target university students, to bike from tube stations to universities.
 
@@ -174,9 +177,9 @@ In order to convert casual riders to annual members,
 
    - The current pricing tier is free rides under 45 minutes.
 
-   - New tier of free rides under 30 minutes. Having a lower annual fee, to lower the entrance barrier and increase annual member base.
+   - Increase annual member base: New tier of free rides under 30 minutes. Having a lower annual fee, to lower the entrance barrier.
 
-   - New tier of free rides under 1 hour. Having a higher annual fee, but a more value per minute charge, in order to maximise customer lifetime value (CLV).
+   - Maximise customer lifetime value (CLV): New tier of free rides under 1 hour. Having a higher annual fee, but a more value per minute charge.
 
 =====
 
