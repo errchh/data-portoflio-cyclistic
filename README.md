@@ -82,8 +82,8 @@ Documented in [cyclistic-query.sql](cyclistic-query.sql)
     Key:
 
     Pink                 Bike route
-    Dark yellow          Central business district
-    Light yellow         Enterprise zone
+    Beige                Central business district
+    Yellow               Enterprise zone
     Black                University
     Green                Tube stations (CTA 'L')
 
