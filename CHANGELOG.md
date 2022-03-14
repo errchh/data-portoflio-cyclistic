@@ -1,11 +1,16 @@
 # Changelog
 This file contains the notable changes to the project
 
+## Version 2022-03-14
+
+### changes
+    - Updated yaml
+
 ## Version 2022-03-08
 
 ### New
     - Uploaded figures
-    - Completed data analysis. Report uploaded. 
+    - Completed data analysis. Report uploaded.
 
 ## Version 2022-03-07
 
