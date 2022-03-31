@@ -1,4 +1,4 @@
-# Cyclistic Marketing Bike Share Usage Case Study
+# Cyclistic Marketing Bike Share User Behaviour Case Study
 
 Eric Chan 2022-03-03
 
